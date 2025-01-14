@@ -1,5 +1,5 @@
 import React from "react";
-import { assets, infoList } from "@/assets/assets";
+import { assets, infoList, toolsData } from "@/assets/assets";
 import Image from "next/image";
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
               {infoList.map(({ icon, iconDark, title, description }, index) => (
                 <li
                   key={index}
-                  className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
+                  className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black"
                 >
                   <Image src={icon} alt={title} className="w-7 mt-3 " />
                   <h3 className="my-4 font-semibold text-gray-700 font-Ovo">
@@ -39,6 +39,19 @@ const About = () => {
                   <span className="text-gray-600 font-Ovo text-sm">
                     {description}
                   </span>
+                </li>
+              ))}
+            </ul>
+
+            <h3 className="font-Ovo text-gray-700 py-5 ">Tools I use</h3>
+            <ul className="flex gap-4 sm:gap-6 items-center">
+              {toolsData.map((tool, index) => (
+                <li
+                  key={index}
+                  className="flex items-center justify-center w-12 sm:w-14 aspect-square border
+                  border-gray-400 rounded-lg cursor pointer hover:-translate-y-1 duration-500"
+                >
+                  <Image src={tool} alt="Tool" className="w-10 sm:w-6" />
                 </li>
               ))}
             </ul>
