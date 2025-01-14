@@ -6,13 +6,13 @@ const Services = () => {
   return (
     <>
       <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
-        <h1 className="font-Ovo text-center text-lg mb-2">What I offer</h1>
-        <h3 className="font-Ovo text-center text-5xl">My Services</h3>
+          <h1 className="font-Ovo text-center text-lg mb-2">What I offer</h1>
+          <h3 className="font-Ovo text-center text-5xl">My Services</h3>
 
-        <p className="font-Ovo mx-auto max-w-2xl mt-5 mb-10 text-center ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio saepe
-          cumque iure quidem, animi atque autem eum. Iste voluptas atque minima.
-        </p>
+          <p className="font-Ovo mx-auto max-w-2xl mt-5 mb-10 text-center ">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio saepe
+            cumque iure quidem, animi atque autem eum. Iste voluptas atque minima.
+          </p>
 
         <div className="grid grid-cols-auto gap-6 my-15 ">
           {serviceData.map(({ icon, title, description, link }, index) => (
