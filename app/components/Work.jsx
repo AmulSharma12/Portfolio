@@ -36,6 +36,7 @@ const Work = () => {
       <a
         href="https://github.com/AmulSharma12"
         className="font-Ovo text-xl flex items-center justify-center border border-gray-700 gap-2 w-fit px-8 py-4 mx-auto my-20 rounded-full hover:bg-lightHover duration-500 cursor:pointer"
+        target="_blank"
       >
         Show more <Image src={assets.right_arrow_bold} alt="" className="w-4" />
       </a>
