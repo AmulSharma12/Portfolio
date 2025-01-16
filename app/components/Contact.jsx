@@ -27,12 +27,14 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h1 className="font-Ovo text-center text-lg mb-2">Connect with me</h1>
-      <h3 className="font-Ovo text-center text-5xl">Get in touch</h3>
+      <h1 className="font-Ovo text-center text-lg mb-2">Let’s Connect</h1>
+      <h3 className="font-Ovo text-center text-5xl">
+        Reach Out and Say Hello!
+      </h3>
 
       <p className="font-Ovo mx-auto max-w-2xl mt-5 mb-10 text-center">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio saepe
-        cumque iure quidem, animi atque autem eum. Iste voluptas atque minima.
+        Got a question or just wanna say hi? Drop us a message—we’d love to hear
+        from you!
       </p>
 
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
