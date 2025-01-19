@@ -2,7 +2,7 @@ import React from "react";
 import { assets, infoList, toolsData } from "@/assets/assets";
 import Image from "next/image";
 
-const About = () => {
+const About = ({ isDarkMode }) => {
   return (
     <>
       <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
@@ -30,20 +30,26 @@ const About = () => {
               {infoList.map(({ icon, iconDark, title, description }, index) => (
                 <li
                   key={index}
-                  className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black"
+                  className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
                 >
-                  <Image src={icon} alt={title} className="w-7 mt-3 " />
-                  <h3 className="my-4 font-semibold text-gray-700 font-Ovo">
+                  <Image
+                    src={isDarkMode ? iconDark : icon}
+                    alt={title}
+                    className="w-7 mt-3 "
+                  />
+                  <h3 className="my-4 font-semibold text-gray-700 font-Ovo dark:text-white">
                     {title}
                   </h3>
-                  <span className="text-gray-600 font-Ovo text-sm">
+                  <span className="text-gray-600 font-Ovo text-sm dark:text-white">
                     {description}
                   </span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="font-Ovo text-gray-700 py-5 ">Tools I use</h3>
+            <h3 className="font-Ovo text-gray-700 py-5 dark:text-white">
+              Tools I use
+            </h3>
             <ul className="flex gap-4 sm:gap-6 items-center">
               {toolsData.map((tool, index) => (
                 <li
