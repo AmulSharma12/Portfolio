@@ -9,8 +9,7 @@ const Work = ({ isDarkMode }) => {
       <h3 className="font-Ovo text-center text-5xl">My Latest Work</h3>
 
       <p className="font-Ovo mx-auto max-w-2xl mt-5 mb-10 text-center ">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio saepe
-        cumque iure quidem, animi atque autem eum. Iste voluptas atque minima.
+        Turning concepts into code and bringing ideas to life.
       </p>
 
       <div className="grid grid-cols-auto my-10 gap-6 dark:text-black">

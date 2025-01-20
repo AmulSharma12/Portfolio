@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="text-center ">
         <div className="flex items-center justify-center gap-2 mx-auto">
           <Image src={assets.mail_icon} alt="" className="w-6" />
-          <span>xyz123@gmail.com</span>
+          <span>amulsharma7369@gmail.com</span>
         </div>
       </div>
 

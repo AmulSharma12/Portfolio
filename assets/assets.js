@@ -78,53 +78,55 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "CLI Project",
+    description: "Command line project",
+    bgImage: "/work-4.png",
+  },
+  {
+    title: "Culinary King",
+    description: "E commerce",
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Pizza Mania",
+    description: "Pizza application",
     bgImage: "/work-2.png",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Freelance",
+    description: "Client Portal",
     bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
+    title: "Frontend Technologies",
+    description:
+      "Creating interactive, user-friendly designs that bring ideas to life.",
+    link: "https://roadmap.sh/frontend",
   },
   {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    icon: assets.web_icon,
+    title: "Backend Technologies",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+      "Creating the backbone that powers seamless and reliable applications.",
+    link: "https://roadmap.sh/backend",
   },
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "Problem Solving",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
+      "Cracking challenges with logic, algorithms, and a love for problem-solving.",
+    link: "https://leetcode.com/u/Amul-Sharma/",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
+    title: "Other skills",
+    description:
+      "Exploring tools and technologies to innovate and stay ahead in development.",
+    link: "https://roadmap.sh/git-github",
   },
 ];
 
@@ -133,26 +135,27 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript React Js, Next Js, Node JS",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "B.Tech in Information technology (IT)",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "One project at a time!",
   },
 ];
 
 export const toolsData = [
   assets.vscode,
-  assets.firebase,
+
   assets.mongodb,
   assets.figma,
   assets.git,
+  assets.firebase,
 ];

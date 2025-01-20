@@ -2,16 +2,16 @@ import { serviceData } from "@/assets/assets";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
 
-const Services = ({ isDarkMode }) => {
+const Skills = ({ isDarkMode }) => {
   return (
     <>
-      <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
+      <div id="skills" className="w-full px-[12%] py-10 scroll-mt-20">
         <h1 className="font-Ovo text-center text-lg mb-2">What I offer</h1>
-        <h3 className="font-Ovo text-center text-5xl">My Services</h3>
+        <h3 className="font-Ovo text-center text-5xl">My Skills</h3>
 
         <p className="font-Ovo mx-auto max-w-2xl mt-5 mb-10 text-center ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio saepe
-          cumque iure quidem, animi atque autem eum. Iste voluptas atque minima.
+          Crafting clean code, solving problems, and building seamless solutions
+          across development and DSA.
         </p>
 
         <div className="grid grid-cols-auto gap-6 my-15 ">
@@ -29,6 +29,7 @@ const Services = ({ isDarkMode }) => {
               </p>
               <a
                 href={link}
+                target="_blank"
                 className="flex items-center text-sm font-Ovo mt-5 gap-2"
               >
                 Read more
@@ -42,4 +43,4 @@ const Services = ({ isDarkMode }) => {
   );
 };
 
-export default Services;
+export default Skills;

@@ -20,10 +20,11 @@ const About = ({ isDarkMode }) => {
 
           <div className="flex-1">
             <p className="mb-10 max-w-2xl font-Ovo">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-              accusamus fugit laudantium nulla id ab commodi velit itaque
-              temporibus accusantium fugiat earum sequi doloremque explicabo,
-              aliquid totam. Cupiditate, ex consequatur.
+              Hi, I’m Amul Sharma! I'm a passionate coder with a strong focus on
+              Data Structures and Algorithms (DSA) as well as development.
+              Whether I’m solving complex problems on LeetCode or building
+              creative solutions, I’m always eager to learn and grow in the
+              world of technology.
             </p>
 
             <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">

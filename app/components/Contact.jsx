@@ -33,8 +33,8 @@ const Contact = ({ isDarkMode }) => {
       </h3>
 
       <p className="font-Ovo mx-auto max-w-2xl mt-5 mb-10 text-center">
-        Got a question or just wanna say hi? Drop us a message—we’d love to hear
-        from you!
+        Got a question or just wanna say hi?&nbsp; Drop us a message—we’d love
+        to hear from you!
       </p>
 
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
