@@ -1,7 +1,7 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import { useState } from "react";
-const Contact = () => {
+const Contact = ({ isDarkMode }) => {
   const [result, setResult] = useState("");
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -44,14 +44,14 @@ const Contact = () => {
             placeholder="Rohit Sharma"
             name="name"
             required
-            className="font-Ovo flex-1 py-2 px-4 border border-gray-400 rounded-md bg-white text-gray-700"
+            className="font-Ovo flex-1 py-2 px-4 border border-gray-400 rounded-md bg-white text-gray-700 dark:bg-darkHover dark:text-white dark:border-white/90"
           ></input>
           <input
             type="email"
             placeholder="rohit.sharma@gmail.com"
             name="email"
             required
-            className="font-Ovo flex-1 py-2 px-4 border border-gray-400 rounded-md bg-white text-gray-700"
+            className="font-Ovo flex-1 py-2 px-4 border border-gray-400 rounded-md bg-white text-gray-700 dark:bg-darkHover dark:text-white dark:border-white/90"
           ></input>
         </div>
         <textarea
@@ -59,13 +59,13 @@ const Contact = () => {
           placeholder="Enter message.."
           name="message"
           required
-          className="font-Ovo w-full py-2 px-4 border border-gray-400 rounded-md bg-white text-gray-700"
+          className="font-Ovo w-full py-2 px-4 border border-gray-400 rounded-md bg-white text-gray-700 dark:bg-darkHover dark:text-white dark:border-white/90"
         ></textarea>
 
         <button
           type="submit"
           className="w-2xl border border-gray-400 bg-black text-white rounded-full  py-2 px-4 mx-auto my-4 
-          flex items-center justify-between duration-500 gap-2"
+          flex items-center justify-between duration-500 gap-2 dark:bg-transparent dark:hover:bg-darkHover"
         >
           Submit now
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
