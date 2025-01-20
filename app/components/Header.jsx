@@ -15,18 +15,17 @@ const Header = () => {
         </div>
 
         <h3 className="font-Ovo flex items-center justify-center gap-2 text-xl md:text-2xl mb-3">
-          Hey folks Amul Sharma there
+          My code runs on caffeine.
           <Image src={assets.hand_icon} alt="" className="w-6" />
         </h3>
 
         <h1 className="font-Ovo text-3xl sm:text-6xl lg:text-[66px]">
-          Web Developer and DSA enthusiast
+          Developer and DSA enthusiast
         </h1>
 
         <p className="max-w-2xl font-Ovo mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-          voluptatem a blanditiis est veniam autem quo quos? Omnis minima,
-          ducimus repellat dolore doloribus ad culpa!
+          Passionate about coding and problem solving, Let’s turn ideas into
+          something awesome!
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
@@ -39,7 +38,7 @@ const Header = () => {
           </a>
 
           <a
-            href="/sample-resume.pdf"
+            href="/resume.pdf"
             download
             className="font-Ovo flex items-center gap-2 border rounded-full border-gray-500 px-10  py-3 dark:text-black dark:bg-white"
           >

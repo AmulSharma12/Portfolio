@@ -1,4 +1,4 @@
-import { Outfit, Ovo } from "next/font/google";
+import { Outfit, Ovo, Arizonia } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -7,6 +7,11 @@ const outfit = Outfit({
 });
 
 const ovo = Ovo({
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const arizonia = Arizonia({
   subsets: ["latin"],
   weight: ["400"],
 });

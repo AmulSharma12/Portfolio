@@ -35,11 +35,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         }`}
       >
         <a href="#top">
-          <Image
+          {/* <Image
             src={isDarkMode ? assets.logo_dark : assets.logo}
             alt="logo"
             className="w-28 cursor-pointer mr-14"
-          />
+          /> */}
+          <h2 className="font-Arizonia text-4xl md:text-5xl">Amul Sharma</h2>
         </a>
 
         <ul
